@@ -1,0 +1,58 @@
+body, #menu, #intro, #topnav, #previews, #intro > div {
+  display: flex;
+  flex-direction: row;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #5E574D;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+body, #intro {
+  flex-direction: column;
+}
+
+#topnav {
+  justify-content:space-between;
+}
+
+#topnav, h1 {
+  font-family: 'DM Serif Display', serif;
+  color: #6d837c;
+  margin-bottom: 2%;
+}
+
+#topnav img {
+  max-width: 3cm;
+  max-height: 3cm;
+  margin-left: 1%;
+}
+
+#menu {
+  align-self: center;
+  font-size: 15pt;
+  text-transform: uppercase;
+}
+
+#menu span {
+  margin: 20pt;
+}
+
+#intro {
+  background-color: #c2d48b71;
+  padding: 6%;
+}
+
+#intro img {
+  max-width: 6cm;
+  max-height: 6cm;
+  align-self: center;
+}
+
+.paragraphs {
+  margin-right: 10%;
+}
