@@ -12,18 +12,18 @@ body {
   margin-right: 5%;
 }
 
-body, #intro {
+body, #intro, #previews {
   flex-direction: column;
 }
 
 #topnav {
   justify-content:space-between;
+  color: #6d837c;
+  margin-bottom: 2%;
 }
 
 #topnav, h1 {
   font-family: 'DM Serif Display', serif;
-  color: #6d837c;
-  margin-bottom: 2%;
 }
 
 #topnav img {
@@ -45,6 +45,7 @@ body, #intro {
 #intro {
   background-color: #c2d48b71;
   padding: 6%;
+  margin-bottom: 2%;
 }
 
 #intro img {
@@ -55,4 +56,11 @@ body, #intro {
 
 .paragraphs {
   margin-right: 10%;
+}
+
+.page {
+  background-color: #93b1a788;
+  color:#5e574d;
+  margin-bottom: 1%;
+  padding: 2%;
 }
